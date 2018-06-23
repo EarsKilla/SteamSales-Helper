@@ -5,7 +5,7 @@
 
 ## Installation
 1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for Chrome) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (for Firefox)
-2. Go [here](https://github.com/EarsKilla/SteamSales-Helper/raw/master/SSC.user.js)
+2. Go [here](https://github.com/EarsKilla/SteamSales-Helper/raw/master/SSh.user.js)
 3. Click `Install`
 
 ### Credits

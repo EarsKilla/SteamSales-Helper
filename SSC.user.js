@@ -2,7 +2,7 @@
 // @name         Steam Sales Helper
 // @namespace    SSh
 // @description Simple button Clicker
-// @version 0.03
+// @version 1.0
 // @author DEMENT0R + EarsKilla#0697
 // @downloadURL https://github.com/EarsKilla/SummerSale2017-Helper/raw/master/SSC.user.js
 // @updateURL https://github.com/EarsKilla/SummerSale2017-Helper/raw/master/SSC.user.js

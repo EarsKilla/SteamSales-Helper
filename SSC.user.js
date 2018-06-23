@@ -1,22 +1,28 @@
 // ==UserScript==
-// @name         Summer Sale 2017 Clicker
-// @namespace    SSC
-// @description  Simple button Clicker
-// @version      0.04
-// @author       DEMENT0R
-// @downloadURL  https://github.com/DEMENT0R/SteamSaleHelper/raw/master/SSH.user.js
-// @updateURL    https://github.com/DEMENT0R/SteamSaleHelper/raw/master/SSH.user.js
-// @license      GNU v3
+// @name         Steam Sales Helper
+// @namespace    SSh
+// @description Simple button Clicker
+// @version 0.03
+// @author DEMENT0R + EarsKilla#0697
+// @downloadURL https://github.com/EarsKilla/SummerSale2017-Helper/raw/master/SSC.user.js
+// @updateURL https://github.com/EarsKilla/SummerSale2017-Helper/raw/master/SSC.user.js
+// @license GNU v3
 // @noframes
 // @match        http://store.steampowered.com/*
 // @match        https://store.steampowered.com/*
-// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
-// @grant         GM_addStyle
+// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
 // ==/UserScript==
 
 (function() {
     'use strict';
     setTimeout(function(){
-        document.querySelector('.next_in_queue_content').click();
+        if (window.location.href.includes(".com/agecheck/")) {
+            document.getElementById("next_in_queue_form").submit();
+        } else if (window.location.href.includes(".com/explore")) {
+            window.location.href = "https://store.steampowered.com/explore/startnew";
+        }
+        else {
+            document.querySelector('.next_in_queue_content').click();
+        }
     }, 1);
 })();

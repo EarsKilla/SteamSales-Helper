@@ -4,7 +4,7 @@
 * Restarts recomendation queue.
 
 ## To do
-* Skip content confirmation
+* ~Skip content confirmation~ No needed. Steam changed button to `Next in Queue`
 
 ## Installation
 1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (for Chrome) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (for Firefox)

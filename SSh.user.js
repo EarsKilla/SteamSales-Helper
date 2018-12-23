@@ -2,10 +2,10 @@
 // @name         Steam Sales Helper
 // @namespace    SSh
 // @description Simple button Clicker
-// @version 1.0
+// @version 2.0
 // @author DEMENT0R + EarsKilla#0697
-// downloadURL https://github.com/EarsKilla/SteamSales-Helper/raw/master/SSh.user.js
-// updateURL https://github.com/EarsKilla/SteamSales-Helper/raw/master/SSh.user.js
+// @downloadURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
+// @updateURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
 // @license GNU v3
 // @noframes
 // @match        http://store.steampowered.com/*

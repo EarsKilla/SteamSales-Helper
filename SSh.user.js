@@ -2,7 +2,7 @@
 // @name         Steam Sales Helper
 // @namespace    SSh
 // @description Simple button Clicker
-// @version 2.0
+// @version 2.1
 // @author DEMENT0R + EarsKilla#0697
 // @downloadURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
 // @updateURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
@@ -15,6 +15,12 @@
 
 (function() {
     'use strict';
+
+    const steamSelfFuckedRegex = /error\s{1,}occurred\s{1,}while\s{1,}processing\s{1,}your\s{1,}request\./gmi;
+    if (steamSelfFuckedRegex.test(document.body.innerText)) {
+        document.body.innerText = "[steam sales helper] error detected, trying to reload page with 1 second waiting...";
+        setTimeout(function () { location.reload(); }, 1000);
+    }
 
     function V_GetIntCookie(name, defValue) {
         var _def = parseInt(defValue);

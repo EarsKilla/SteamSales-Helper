@@ -12,3 +12,7 @@
 * [DEMENT0R](https://github.com/DEMENT0R/) for the base
 ##
 > By default, the script will auto-update roughly every 24 hours. You can force an update by re-installing using the link above.
+
+## Language | Язык
+- [ ] [RU](./README-ru.md)
+- [X] [EN](./README.md)

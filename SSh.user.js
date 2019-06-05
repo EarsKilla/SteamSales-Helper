@@ -2,7 +2,7 @@
 // @name         Steam Sales Helper
 // @namespace    SSh
 // @description Simple button Clicker
-// @version 2.1
+// @version 2.2
 // @author DEMENT0R + EarsKilla#0697
 // @downloadURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
 // @updateURL https://github.com/EarsKilla/SteamSales-Helper/raw/Extended/SSh.user.js
@@ -59,7 +59,7 @@
 
     function gabenSendNudes() {
         var sshDialog = ShowPromptDialog('Explore', 'Loops count:', 'Go', 'Cancel');
-        var sshInput = sshDialog.m_$Content[0].childNodes[1].children[0].childNodes[0].childNodes[0].childNodes[1].childNodes[0];
+        var sshInput = sshDialog.m_$Content[0].childNodes[2].childNodes[0].childNodes[0].childNodes[0].childNodes[1].childNodes[0];
         if (!sshInput) {
             console.log('Cannot find input field! this is very bad :(');
             return;
